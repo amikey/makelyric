@@ -90,7 +90,7 @@
             <Form>frm_Main</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="uLyricList.pas"/>
+        <DCCReference Include="..\uLyricList.pas"/>
         <RcItem Include="Bin\Common.dll">
             <ContainerId>ResourceItem</ContainerId>
             <ResourceType>RCDATA</ResourceType>

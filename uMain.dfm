@@ -30,29 +30,20 @@ object frm_Main: Tfrm_Main
     ParentDoubleBuffered = False
     ShowCaption = False
     TabOrder = 0
-    ExplicitTop = 41
-    ExplicitWidth = 678
-    ExplicitHeight = 405
     object pgc_Main: TPageControl
       Left = 1
       Top = 1
       Width = 686
       Height = 382
-      ActivePage = ts_Info
+      ActivePage = ts_Lrc
       Align = alClient
       DoubleBuffered = True
       MultiLine = True
       ParentDoubleBuffered = False
       Style = tsFlatButtons
       TabOrder = 0
-      ExplicitLeft = 2
-      ExplicitTop = -15
-      ExplicitWidth = 676
-      ExplicitHeight = 355
       object ts_Lrc: TTabSheet
         Caption = #27468#35789#32534#36753
-        ExplicitWidth = 668
-        ExplicitHeight = 372
         object mmo_Lrc: TMemo
           Left = 0
           Top = 0
@@ -67,19 +58,11 @@ object frm_Main: Tfrm_Main
           ParentFont = False
           ScrollBars = ssBoth
           TabOrder = 0
-          ExplicitLeft = 3
-          ExplicitTop = -1
-          ExplicitWidth = 668
-          ExplicitHeight = 372
         end
       end
       object ts_Info: TTabSheet
         Caption = #27468#35789#20449#24687
         ImageIndex = 2
-        ExplicitLeft = 8
-        ExplicitTop = 26
-        ExplicitWidth = 668
-        ExplicitHeight = 324
         object grp1: TGroupBox
           Left = 16
           Top = 19
@@ -207,7 +190,7 @@ object frm_Main: Tfrm_Main
         object mp_Play: TMediaPlayer
           Left = 450
           Top = 3
-          Width = 85
+          Width = -2
           Height = 30
           EnabledButtons = [btPlay, btPause, btStop]
           VisibleButtons = [btPlay, btPause, btStop]
@@ -245,7 +228,6 @@ object frm_Main: Tfrm_Main
     Height = 53
     Align = alTop
     TabOrder = 1
-    ExplicitWidth = 678
     object btn_loadmp3: TSpeedButton
       Left = 493
       Top = 10
@@ -270,8 +252,6 @@ object frm_Main: Tfrm_Main
     Height = 41
     Align = alBottom
     TabOrder = 2
-    ExplicitTop = 446
-    ExplicitWidth = 678
     object btn_Next: TSpeedButton
       Left = 586
       Top = 6
@@ -297,9 +277,6 @@ object frm_Main: Tfrm_Main
         Text = #20316#32773':ying32, email: yuanfen3287@vip.qq.com'
         Width = 50
       end>
-    ExplicitLeft = 24
-    ExplicitTop = 488
-    ExplicitWidth = 0
   end
   object actlst1: TActionList
     Left = 352
