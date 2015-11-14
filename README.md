@@ -7,10 +7,10 @@
 #### **这个东西写了有一段时间了，几年写过一个转换类，现在重构了那个转换类，并写了一个测试用的制作工具！**
 
 #### 说明
-  ** 总是有一种莫名奇妙的好奇,总想是研究,所以就出了这个东东, 目前支持互转的有 qrc, krc, trc, 网易云音乐歌词， 另可生成ksc, lrc **
+  **总是有一种莫名奇妙的好奇,总想是研究,所以就出了这个东东, 目前支持互转的有 qrc, krc, trc, 网易云音乐歌词， 另可生成ksc, lrc**
 
-#### **制作工具可祥情:[制作工具](http://blog.csdn.net/zyjying520/article/details/46483593) **
-#### **转换工具可祥情:[转换工具](http://blog.csdn.net/zyjying520/article/details/46481983) **
+#### **制作工具可祥情:[制作工具](http://blog.csdn.net/zyjying520/article/details/46483593)**
+#### **转换工具可祥情:[转换工具](http://blog.csdn.net/zyjying520/article/details/46481983)**
 #### **[我的博客](http://blog.csdn.net/zyjying520)**
 ***
 
