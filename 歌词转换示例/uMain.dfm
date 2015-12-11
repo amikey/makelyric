@@ -13,6 +13,7 @@ object frm_Main: Tfrm_Main
   Font.Style = []
   OldCreateOrder = False
   Position = poScreenCenter
+  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object grp_in: TGroupBox
@@ -68,7 +69,7 @@ object frm_Main: Tfrm_Main
       Width = 81
       Height = 17
       Caption = #22825#22825#21160#21548
-      TabOrder = 2
+      TabOrder = 4
     end
     object chk_out_lrc: TCheckBox
       Left = 112
@@ -76,7 +77,7 @@ object frm_Main: Tfrm_Main
       Width = 91
       Height = 17
       Caption = #24120#35268'LRC'#27468#35789
-      TabOrder = 4
+      TabOrder = 3
     end
     object chk_out_qrc: TCheckBox
       Left = 16
@@ -84,7 +85,7 @@ object frm_Main: Tfrm_Main
       Width = 65
       Height = 17
       Caption = 'QQ'#38899#20048
-      TabOrder = 1
+      TabOrder = 2
     end
     object chk_out_krc: TCheckBox
       Left = 16
@@ -100,7 +101,7 @@ object frm_Main: Tfrm_Main
       Width = 91
       Height = 17
       Caption = #32593#26131#20113#38899#20048
-      TabOrder = 3
+      TabOrder = 1
     end
     object chk_out_ksc: TCheckBox
       Left = 112

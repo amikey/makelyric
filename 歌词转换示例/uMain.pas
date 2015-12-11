@@ -34,6 +34,7 @@ type
     chk_out_nrc: TCheckBox;
     chk_out_ksc: TCheckBox;
     procedure btn_ConvertClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
   private
     FInKrc, FInNrc, FInQrc, FInTrc: Boolean;
     FOutTrc, FOutLrc, FOutQrc, FOutKrc, FOutNrc, FOutKsc: Boolean;
@@ -100,6 +101,12 @@ begin
   finally
     LList.Free;
   end;
+end;
+
+procedure Tfrm_Main.FormCreate(Sender: TObject);
+begin
+  chk_in_qrc.Enabled := QQMusicCommonIsLoaded;
+  chk_out_qrc.Enabled := QQMusicCommonIsLoaded;
 end;
 
 procedure Tfrm_Main.InitCheck;
