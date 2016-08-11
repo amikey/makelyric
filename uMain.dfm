@@ -29,13 +29,13 @@ object frm_Main: Tfrm_Main
     DoubleBuffered = True
     ParentDoubleBuffered = False
     ShowCaption = False
-    TabOrder = 0
+    TabOrder = 1
     object pgc_Main: TPageControl
       Left = 1
       Top = 1
       Width = 686
       Height = 382
-      ActivePage = ts_Lrc
+      ActivePage = ts_Info
       Align = alClient
       DoubleBuffered = True
       MultiLine = True
@@ -170,10 +170,6 @@ object frm_Main: Tfrm_Main
         DoubleBuffered = True
         ImageIndex = 1
         ParentDoubleBuffered = False
-        ExplicitLeft = 8
-        ExplicitTop = 26
-        ExplicitWidth = 668
-        ExplicitHeight = 324
         object TrackBar1: TTrackBar
           Left = 3
           Top = 7
@@ -182,7 +178,7 @@ object frm_Main: Tfrm_Main
           ParentShowHint = False
           ShowHint = False
           ShowSelRange = False
-          TabOrder = 0
+          TabOrder = 1
           TabStop = False
           TickMarks = tmBoth
           TickStyle = tsNone
@@ -190,13 +186,13 @@ object frm_Main: Tfrm_Main
         object mp_Play: TMediaPlayer
           Left = 450
           Top = 3
-          Width = -2
+          Width = 85
           Height = 30
           EnabledButtons = [btPlay, btPause, btStop]
           VisibleButtons = [btPlay, btPause, btStop]
           AutoRewind = False
           Visible = False
-          TabOrder = 1
+          TabOrder = 0
           TabStop = False
         end
         object pnl_DrawBk: TPanel
@@ -227,7 +223,7 @@ object frm_Main: Tfrm_Main
     Width = 688
     Height = 53
     Align = alTop
-    TabOrder = 1
+    TabOrder = 0
     object btn_loadmp3: TSpeedButton
       Left = 493
       Top = 10
@@ -274,7 +270,7 @@ object frm_Main: Tfrm_Main
     Height = 19
     Panels = <
       item
-        Text = #20316#32773':ying32, email: yuanfen3287@vip.qq.com'
+        Text = #20316#32773':ying32, qq:1444386932'
         Width = 50
       end>
   end

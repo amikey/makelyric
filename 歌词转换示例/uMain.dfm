@@ -3,7 +3,7 @@ object frm_Main: Tfrm_Main
   Top = 0
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = #22810#26684#24335#27468#35789#36716#25442
-  ClientHeight = 168
+  ClientHeight = 249
   ClientWidth = 356
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -16,6 +16,25 @@ object frm_Main: Tfrm_Main
   OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
+  object lbl1: TLabel
+    Left = 8
+    Top = 165
+    Width = 340
+    Height = 56
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 
+      #38656#35201#21046#20316'qrc(QQ'#38899#20048')'#27468#35789#30340#35831#23558'QQ'#38899#20048#30446#24405#19979'QQMusicCommon.dll'#22797#21046#21040#26412#36719#20214#30446#24405#20013','#21338#20027#20351#29992#30340#26159'QQMusi' +
+      'c1161.19.43.57'#29256#26412','
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    WordWrap = True
+    StyleElements = []
+  end
   object grp_in: TGroupBox
     Left = 8
     Top = 8
@@ -113,12 +132,26 @@ object frm_Main: Tfrm_Main
     end
   end
   object btn_Convert: TButton
-    Left = 151
+    Left = 141
     Top = 134
     Width = 75
     Height = 25
     Caption = #36716#25442
     TabOrder = 2
     OnClick = btn_ConvertClick
+  end
+  object stat1: TStatusBar
+    Left = 0
+    Top = 230
+    Width = 356
+    Height = 19
+    Panels = <
+      item
+        Text = 'by:ying32  qq:1444386932'
+        Width = 50
+      end>
+    ExplicitLeft = 184
+    ExplicitTop = 136
+    ExplicitWidth = 0
   end
 end
