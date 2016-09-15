@@ -857,7 +857,7 @@ var
     StrStream.WriteString(AStr + #13#10);
   end;
 begin
-  StrStream := TStringStream.Create('', TEncoding.UTF8);
+  StrStream := TStringStream.Create('', 936);
   try
     WriteStr('karaoke := CreateKaraokeObject;');
     WriteStr('karaoke.rows := 2;');
